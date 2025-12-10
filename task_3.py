@@ -2,13 +2,7 @@
 
 from binary_tree import BinaryTree
 from avl_tree import AVLTree
-
-
-def seed_tree(tree, values):
-    """Insert a list of values into any tree that exposes insert()."""
-    for value in values:
-        tree.insert(value)
-    return tree
+from utils import seed_tree
 
 
 if __name__ == "__main__":
